@@ -11,6 +11,7 @@ public class Demo {
 	        System.out.println("=== Welcome to the Computer Store Management System ===");
 
 	        // Ask for max number of computers
+	        //pargol is amazing she is the best
 	        System.out.print("Enter the maximum number of computers your store can hold: ");
 	        int maxComputers = sc.nextInt();
 	        Computer[] inventory = new Computer[maxComputers];
