@@ -83,7 +83,7 @@ public class Demo {
 	                                        break;
 	                                    case 2:
 	                                        System.out.print("Enter new model: ");
-	                                        comp.setmodel(PASSWORD);
+	                                        comp.setmodel(sc.nextLine());
 	                                        break;
 	                                    case 3:
 	                                        System.out.print("Enter new SN: ");
@@ -155,7 +155,7 @@ public class Demo {
 	        }
 	    }
 
-	    // Search by price
+	    // Search by price this is my fun
 	    public static void findCheaperThan(Computer[] inventory, int count, double price) {
 	        boolean found = false;
 	        for (int i = 0; i < count; i++) {
